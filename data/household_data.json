@@ -1,0 +1,99 @@
+{
+    "household": {
+        "owner_name": "Sample Family",
+        "occupants": 4,
+        "appliances": [
+            {
+                "name": "Air Conditioner",
+                "wattage": 1000.0,
+                "hours_per_day": 8.0,
+                "quantity": 1,
+                "days_per_month": 30,
+                "category": "Cooling"
+            },
+            {
+                "name": "Refrigerator",
+                "wattage": 150.0,
+                "hours_per_day": 24.0,
+                "quantity": 1,
+                "days_per_month": 30,
+                "category": "Kitchen"
+            },
+            {
+                "name": "Led Light",
+                "wattage": 10.0,
+                "hours_per_day": 6.0,
+                "quantity": 8,
+                "days_per_month": 30,
+                "category": "Lighting"
+            },
+            {
+                "name": "Ceiling Fan",
+                "wattage": 70.0,
+                "hours_per_day": 10.0,
+                "quantity": 3,
+                "days_per_month": 30,
+                "category": "Cooling"
+            },
+            {
+                "name": "Television",
+                "wattage": 120.0,
+                "hours_per_day": 5.0,
+                "quantity": 1,
+                "days_per_month": 30,
+                "category": "Entertainment"
+            },
+            {
+                "name": "Washing Machine",
+                "wattage": 500.0,
+                "hours_per_day": 1.0,
+                "quantity": 1,
+                "days_per_month": 12,
+                "category": "Laundry"
+            },
+            {
+                "name": "Rice Cooker",
+                "wattage": 700.0,
+                "hours_per_day": 1.0,
+                "quantity": 1,
+                "days_per_month": 30,
+                "category": "Kitchen"
+            },
+            {
+                "name": "Water Heater",
+                "wattage": 3000.0,
+                "hours_per_day": 0.5,
+                "quantity": 1,
+                "days_per_month": 30,
+                "category": "Other"
+            }
+        ]
+    },
+    "tariff": {
+        "tiers": [
+            [
+                200,
+                0.218
+            ],
+            [
+                300,
+                0.334
+            ],
+            [
+                600,
+                0.516
+            ],
+            [
+                900,
+                0.546
+            ],
+            [
+                null,
+                0.571
+            ]
+        ],
+        "currency": "RM",
+        "service_tax_rate": 0.0
+    },
+    "emission_factor": 0.585
+}
